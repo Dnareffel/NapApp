@@ -1,0 +1,31 @@
+<div class="navbar-fixed ">
+  
+
+<nav>
+    <div class="nav-wrapper blue lighten-1">
+     
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+     
+        <li><a [routerLink]="['accueil']">ACCUEIL</a></li>
+        <li><a [routerLink]="['nosproduits']">NOS PRODUITS</a></li>
+        <li><a [routerLink]="['contact']">CONTACT</a></li>
+        <li><a materialize="dropdown" class="dropdown-button" data-gutter="50" data-beloworigin="true" data-alignment="right" data-constrainWidth="false" href='apropos' data-activates='dropdown1' href="sass.html">A PROPOS<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+</div>
+
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!"><i class="material-icons">sentiment_very_satisfied</i>Qui sommes nous ?</a></li>
+      <li class="divider"></li>
+      <li><a href="#!"><i class="material-icons">group</i>Notre équipe</a></li>
+      <li class="divider"></li>
+      <li><a href="#!"><i class="material-icons">settings_applications</i>Nos services</a></li>
+      <li class="divider"></li>
+      <li><a href="#!"><i class="material-icons">help</i>FAQ</a></li>
+  
+    </ul>
