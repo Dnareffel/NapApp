@@ -21,6 +21,7 @@ import { FaqComponent } from './pages/apropos/faq/faq.component';
 
 import { RouterModule } from '@angular/router';
 import { appRoutes }  from './routerConfig';
+import { DevisComponent } from './pages/devis/devis.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { appRoutes }  from './routerConfig';
     EquipeComponent,
     ServicesComponent,
     FaqComponent,
+    DevisComponent,
   
   ],
   imports: [

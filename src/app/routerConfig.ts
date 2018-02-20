@@ -5,10 +5,13 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { NosproduitsComponent } from './pages/nosproduits/nosproduits.component';
 import { AproposComponent } from './pages/apropos/apropos.component';
 
+
 import { QsnComponent } from './pages/apropos/qsn/qsn.component';
 import { EquipeComponent } from './pages/apropos/equipe/equipe.component';
 import { ServicesComponent } from './pages/apropos/services/services.component';
 import { FaqComponent } from './pages/apropos/faq/faq.component';
+import { DebugContext } from '@angular/core/src/view';
+import { DevisComponent } from './pages/devis/devis.component';
 
 export const appRoutes: Routes = [
     
@@ -19,6 +22,12 @@ export const appRoutes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
+  {
+    path: 'devis',
+    component: DevisComponent
+  },
+
+  
   { path: 'nosproduits',
     component: NosproduitsComponent
   },
