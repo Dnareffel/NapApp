@@ -12,6 +12,13 @@ import { NosproduitsComponent } from './pages/nosproduits/nosproduits.component'
 import { ContactComponent } from './pages/contact/contact.component';
 import { AproposComponent } from './pages/apropos/apropos.component';
 
+
+import { QsnComponent } from './pages/apropos/qsn/qsn.component';
+import { EquipeComponent } from './pages/apropos/equipe/equipe.component';
+import { ServicesComponent } from './pages/apropos/services/services.component';
+import { FaqComponent } from './pages/apropos/faq/faq.component';
+
+
 import { RouterModule } from '@angular/router';
 import { appRoutes }  from './routerConfig';
 
@@ -24,6 +31,10 @@ import { appRoutes }  from './routerConfig';
     NosproduitsComponent,
     ContactComponent,
     AproposComponent,
+    QsnComponent,
+    EquipeComponent,
+    ServicesComponent,
+    FaqComponent,
   
   ],
   imports: [
