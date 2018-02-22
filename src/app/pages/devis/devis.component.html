@@ -3,59 +3,122 @@
 
   <h4>Faire Un Devis</h4>
   
+  
+  
   <div class="row">
-      <form class="col s12">
-        
-        <div class="row">
-         
-          <div class="input-field col s6">
-            <input id="Nom" type="text" class="validate">
-            <label for="first_name">Nom</label>
-          </div>
-          
-          <div class="input-field col s6">
-            <input id="Prénom" type="text" class="validate">
-            <label for="last_name">Prénom</label>
-          </div>
-        
-        </div>
       
-       
+    
+      
+      <form class="col s12">
+        <!--Nom/prenom-->
+            <div class="row">  
+                          <div class="input-field col s6">
+                            <input id="Nom" type="text" class="validate">
+                            <label for="first_name">Nom</label>
+                          </div>
+                        
+                        <div class="input-field col s6">
+                          <input id="Prénom" type="text" class="validate">
+                          <label for="last_name">Prénom</label>
+                        </div>  
+              </div>
+<!--société-->
+            <div class="row">
+          
+              <div class="input-field col s12">
+                <input id="society" type="text" class="validate">
+                <label for="society">Votre Societé</label>
+              </div>
+            
+            </div>
+       <!--Mail-->
         <div class="row">
-         
-          <div class="input-field col s12">
-            <input id="email" type="email" class="validate">
-            <label for="email">Votre Email</label>
-          </div>
+
+              <div class="input-field col s6">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email : mail@mail.com</label>
+             </div>
+<!--phone-->
+            <div class="input-field col s6">
+              <input id="phone" type="text" class="validate">
+              <label for="phone">Numéro de Téléphone : 06 12 45 78</label>
+            </div>
         
         </div>
-
+        <!--dropedowntest-->
         <div class="row">
-         
-          <div class="input-field col s12">
-            <input id="society" type="text" class="validate">
-            <label for="society">Votre Societé</label>
+
+            <ul materialize="dropdown" id="dropdown2" class="dropdown-content">
+              <li><a href="">Bed Type 1<span class="badge">1</span></a></li>
+              <li><a href="">Bed Type two<span class="new badge">1</span></a></li>
+              <li><a href="">Bed type three</a></li>
+            </ul>
+        <a materialize="dropdown" class="btn dropdown-button"  data-activates="dropdown2">Type de Lit sLEEPY sHIT<i class="material-icons right">arrow_drop_down</i></a>
+
+        </div>
+        <!--color/type bed-->
+      <div class="row">
+
+                 <div class="input-field col s12 m6">
+                      <select materialize="icons" class="icons">
+                        <option value="" selected>Choose your option</option>
+                        <option value="" data-icon="images/sample-1.jpg" class="circle">example 1</option>
+                        <option value="" data-icon="images/office.jpg" class="circle">example 2</option>
+                        <option value="" data-icon="images/yuna.jpg" class="circle">example 3</option>
+                      </select>
+                      <label>Type de lit</label>
+                  </div>
+                  
+                  <div  class="input-field col s12 m6">
+                      <select materialize="select" id="select1" class="icons">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="" data-icon="images/sample-1.jpg" class="left circle">example 1</option>
+                        <option value="" data-icon="images/office.jpg" class="left circle">example 2</option>
+                        <option value="" data-icon="images/yuna.jpg" class="left circle">example 3</option>
+                      </select>
+                      <label>choix de la couleur</label>
+                  </div>
+                  
+         </div>
+    
+<!--select test-->
+       <div class="row">
+
+          <div materialize="select" class="input-field col s12">
+              <select>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+              <label>Materialize Select</label>
+            </div>
+
+       </div>
+       <!--comment /text area-->
+        <div class="row">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Textarea</label>
+                </div>
+              </div>
+            </form>
           </div>
-        
         </div>
 
-        <div class="row">
-
-           <ul materialize="dropdown" id="dropdown2" class="dropdown-content">
-    <li><a href="">Bed Type 1<span class="badge">1</span></a></li>
-    <li><a href="">Bed Type two<span class="new badge">1</span></a></li>
-    <li><a href="">Bed type three</a></li>
-  </ul>
-  <a materialize="dropdown" class="btn dropdown-button"  data-activates="dropdown2">Type de Lit sLEEPY sHIT<i class="material-icons right">arrow_drop_down</i></a>
-
-        </div>
-
-
-       
       </form>
-    </div>
- 
- 
+<!--btn submit-->
+                            <div class="row">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                              <i class="material-icons right">send</i>
+                            </button>
+
+                            </div>
+
   </div>
+</div>
 
   
