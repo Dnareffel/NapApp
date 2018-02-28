@@ -1,0 +1,14 @@
+li {
+    list-style:none;
+}   
+li:nth-child(odd):before {
+    color: blue;
+    content:"Q. ";
+    break-after:" ?";  
+}
+li:nth-child(even):before {
+    color: tomato;
+    content:"A. ";
+    break-after: "."; 
+}
+
